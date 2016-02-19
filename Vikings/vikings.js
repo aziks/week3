@@ -108,6 +108,8 @@ var sajones = ejercitosajon.createSaxonArmy();
 
 var movidote = new War(vikingos, sajones); 
 
+var batalla = new 
+
 
 
 

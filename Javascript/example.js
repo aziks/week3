@@ -92,19 +92,33 @@
 //-----------------------------------------------
 // CLOSURES ----------------------------------
 
-function ticketBuilder(transport) {
-  var passengerNumber = 0;
-return function(name) {
-        passengerNumber += 1;
-        console.log("Welcome, " + name + ". Here is your ticket for the " + transport + "!");
-        console.log("You are passenger #" + passengerNumber)
-  }
-}
+// function ticketBuilder(transport) {
+//   var passengerNumber = 0;
+// return function(name) {
+//         passengerNumber += 1;
+//         console.log("Welcome, " + name + ". Here is your ticket for the " + transport + "!");
+//         console.log("You are passenger #" + passengerNumber)
+//   }
+// }
 
-var getPlaneTicket = ticketBuilder('plane');
-var getBusTicket = ticketBuilder('bus');
+// var getPlaneTicket = ticketBuilder('plane');
+// var getBusTicket = ticketBuilder('bus');
 
-getPlaneTicket('pepito');
-getBusTicket('jaimito');
-getBusTicket('jorgito');
+// getPlaneTicket('pepito');
+// getBusTicket('jaimito');
+// getBusTicket('jorgito');
 
+///////////////////////////////////////////
+
+// options = {
+//     prompt: "What's your name?\n>"
+// }
+// // Our options object, the prompt is simply what will appear in the command line when read is called
+
+// read(options, displayName)
+// // The prompt itself, passing options, and using our callback function after input
+
+// function displayName (err, name){
+//     console.log("Your name is: " + name)
+// }
+// // Outputs whatever the user has entered back to the console
